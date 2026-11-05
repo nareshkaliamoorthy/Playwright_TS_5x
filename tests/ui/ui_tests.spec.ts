@@ -1,6 +1,6 @@
 import { test, expect } from '../../fixtures/base.fixtures';
 import { PlaywrightLabLoginPage } from '../../pages/playwrightLabLoginPage';
-
+//ui
 test.describe("Login Functionality", () => {
     test("Valid Login", { tag: ["@regression"] }, async ({ page, playwrightLabLoginPage, playwrightLabHomePage }) => {
         await playwrightLabLoginPage.login("test@playlab.com", "Password123");
